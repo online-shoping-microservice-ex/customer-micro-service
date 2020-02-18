@@ -1,13 +1,13 @@
-package com.online.microservice.customerservice.entity;
+package com.online.microservice.customerservice.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.online.microservice.customerservice.entity.Customer;
 import com.online.microservice.customerservice.exception.CustomerNotfoundException;
 import com.online.microservice.customerservice.repository.CustomerRepository;
-import com.online.microservice.customerservice.service.CustomerService;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {
